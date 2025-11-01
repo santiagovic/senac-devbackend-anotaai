@@ -1,5 +1,7 @@
 import promptSync from 'prompt-sync'
 
+//notion do curso: https://mirror-saw-7ad.notion.site/Desenvolvedor-Web-Back-end-2797fef7117e802193d3e8215c838f9b
+
 class Pessoa {
     #senha;   // privado
     //   _email;   // protegido
@@ -68,7 +70,7 @@ class Professor extends Pessoa {
     apresentar() {
         console.log(`Meu nome é ${this.nome} e meu número de registro é ${this.registro}.`)
     }
-    
+
 }
 
 const prompt = promptSync()
